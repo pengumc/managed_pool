@@ -14,7 +14,7 @@ struct PoolItem {
   token_t token;
 };
 
-static pool_item_t pool[4];
+static pool_item_t pool[POOL_SIZE];
 static pool_item_t* first;
 static token_t next_token = 1;
 
